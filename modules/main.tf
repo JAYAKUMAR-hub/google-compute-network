@@ -1,5 +1,3 @@
-# ****network*****
-
 
 resource "google_compute_network" "vpc_network" {
   
@@ -12,13 +10,6 @@ resource "google_compute_network" "vpc_network" {
 
 }
 
-
-
-
-
-
-
-#      *****subnet*****
 
 resource "google_compute_subnetwork" "vpc_subnet" {
 
